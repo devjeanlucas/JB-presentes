@@ -8,7 +8,7 @@ for (i=0; i < btns.length; i++){
     })
 }
 
-//Abrir barra de busca 
+//Abrir barra de busca Desktop
 var btn = document.querySelector('.btn-find')
 var input = document.querySelector('.find')
 
@@ -46,6 +46,47 @@ for (var c=0; c < 1; c++){
     })
     
 }
+//Barra de busca Mobile
+
+var btn_mob = document.querySelector('.btn-find-mob')
+var input_mob = document.querySelector('.find-mob')
+
+function open_mob (){
+    btn_mob.style.right = 30 + 'px'
+    input_mob.style.right = 60 + 'px'
+    input_mob.style.width = 30 + '%'
+    input_mob.style.cursor = 'auto'
+}
+function close_mob (){
+    btn_mob.style.right = 100 + 'px'
+    input_mob.style.right = 50 + 'px'
+    input_mob.style.width = 50 + 'px'
+    input_mob.style.cursor = 'pointer'
+}
+
+var pos_mob=1
+for (var m=0; m < 1; m++){
+    btn_mob.addEventListener('click', function(){
+        pos_mob += 1
+        if (pos_mob%2 == 0){
+            open_mob()
+        }
+        else {
+            close_mob()
+        }
+    })
+    input_mob.addEventListener('click', function(){
+        pos_mob+=1
+        if (pos_mob%2 == 0){
+            open_mob()
+        }
+        else {
+            return
+        }
+    })
+}
+
+
 //Waypoints section 2
 var line1 = document.querySelector('.line-view1')
 var waypoint = new Waypoint({
