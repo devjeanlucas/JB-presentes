@@ -329,6 +329,20 @@
     .item-rd:last-child {
         margin-right: 0px;
     }
+    .places:nth-child(even) .item-list-view {
+        float: right;
+        margin-right: 5px;
+    }
+    .places:nth-child(even) .row {
+        flex-direction: row-reverse;
+    }
+    .places:nth-child(even) .box-info-view h1 {
+        text-align: right;
+        margin-right: 5px;
+    }
+    .places:nth-child(even) .box-info-view .list-sub-title-view {
+        float: right;   
+    }
     }
 
 @media screen and (min-width:576px) {
