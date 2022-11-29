@@ -35,7 +35,7 @@
         width: 70%;
         height: 100vh;
         position: fixed;
-        background-color: #F0F0F0;
+        background-color: #f0f0f0;
         left: 0;
         z-index: 2;
         display: none;
@@ -44,6 +44,7 @@
     .btn-close-menu-mob {
         float: right;
         border: none;
+        background-color: transparent;
     }
     .btn-close-menu-mob img {
         width: 50px;
@@ -87,9 +88,10 @@
         margin-left: 60px;
     }
     .text-header {
-        font-size: 23px;
+        font-size: 3em;
         cursor:default;
         color: #fff;
+        margin-top: 20px;
     }
     .img-destaque {
         height: 245px;
