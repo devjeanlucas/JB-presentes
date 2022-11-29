@@ -20,14 +20,14 @@
         height: 50px;
         width: 50px;
         border-radius: 50%;
-        background-color: #551AA7;
+        background-color: #fff;
         background-image: url(https://img.freepik.com/icones-gratis/justificacao_318-488156.jpg?w=2000);
         background-repeat: no-repeat;
         background-size: 30px, 30px;
         background-position: center;
         position: fixed;
         top: 24px;
-        left: 25px;
+        left: 18px;
         border: none;
         cursor: pointer;
     } 
@@ -72,7 +72,7 @@
         padding-top: 35px;
         cursor: default;
         text-align: left;
-        margin-left: 70px;
+        margin-left: 60px;
     }
     .text-header {
         font-size: 20px;
