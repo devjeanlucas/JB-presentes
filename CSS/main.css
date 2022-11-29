@@ -35,10 +35,19 @@
         width: 70%;
         height: 100vh;
         position: fixed;
-        background-color: #fff;
+        background-color: #F0F0F0;
         left: 0;
         z-index: 2;
         display: none;
+        transition: all 0.7s ease-out;
+    }
+    .btn-close-menu-mob {
+        float: right;
+        border: none;
+    }
+    .btn-close-menu-mob img {
+        width: 50px;
+        height: 50px;
     }
     
     .h1-top {
