@@ -121,3 +121,39 @@ var waypoint = new Waypoint({
     offset:'50%'
 })
 
+
+//Waypoints Section2 Mobile
+
+var line1_mob = document.querySelector('.line-view1-mob')
+var waypoint = new Waypoint({
+    element: document.querySelector('.line-view1-mob'),
+    handler: function() {
+        line1_mob.classList.toggle('strain')
+    },
+    offset:'90%'
+})
+var line2_mob = document.querySelector('.line-view2-mob')
+var waypoint = new Waypoint({
+    element: document.querySelector('.line-view2-mob'),
+    handler: function() {
+        line2_mob.classList.toggle('strain')
+    },
+    offset:'00%'
+})
+var line3_mob = document.querySelector('.line-view3-mob')
+var waypoint = new Waypoint({
+    element: document.querySelector('.line-view3-mob'),
+    handler: function() {
+        line3_mob.classList.toggle('strain')
+    },
+    offset:'90%'
+})
+var line4_mob = document.querySelector('.line-view4-mob')
+var waypoint = new Waypoint({
+    element: document.querySelector('.line-view4-mob'),
+    handler: function() {
+        line4_mob.classList.toggle('strain')
+    },
+    offset:'90%'
+})
+
