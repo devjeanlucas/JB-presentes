@@ -60,6 +60,9 @@
         height: 2px;
         z-index: 1;
     }
+    .line-header-mob {
+        margin-bottom: 15px;
+    }
     .menu nav {
         display: none;
     }
@@ -75,8 +78,9 @@
         margin-left: 60px;
     }
     .text-header {
-        font-size: 20px;
+        font-size: 23px;
         cursor:default;
+        color: #fff;
     }
     .img-destaque {
         height: 245px;
