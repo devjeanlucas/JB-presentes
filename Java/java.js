@@ -138,7 +138,7 @@ var waypoint = new Waypoint({
     handler: function() {
         line2_mob.classList.toggle('strain')
     },
-    offset:'00%'
+    offset:'90%'
 })
 var line3_mob = document.querySelector('.line-view3-mob')
 var waypoint = new Waypoint({
