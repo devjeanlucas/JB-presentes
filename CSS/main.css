@@ -193,6 +193,8 @@
         padding: 10px;
         width: 100%;
     }
+
+
     .places .row{
         margin-bottom: 30px;
     }
@@ -234,7 +236,7 @@
         background-position: center;
     }
     .box-info-view a  {
-        font-size: 3em;
+        font-size: 2em;
         color: #9bd126;
         text-decoration: none;
     }
@@ -252,16 +254,19 @@
         background-color: #551AA7;
         padding: 15px;
         border-radius: 22px;
-        font-size: 19px;
+        font-size: 14px;
     }
-    .places:nth-child(even) .row {
-        flex-direction: row-reverse;
+      
     }
-    .places:nth-child(even) .box-info-view h1 {
-        text-align: right;
-    }
-    .places:nth-child(even) .box-info-view .list-sub-title-view {
-        float: right;   
+    .line-view1, .line-view2,.line-view3, .line-view4{
+        content: '';
+        display: block;
+        background-color: #551AA7;
+        width: 0%;
+        height: 2px;
+        margin-bottom: 5px;
+        z-index: 1;
+        transition: all 0.7s ease-out;
     }
 
 }
