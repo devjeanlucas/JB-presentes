@@ -7,11 +7,17 @@
 
 
 @media screen and (min-width:350px) {
+    .first-section {
+        background-color: #ABD849;
+    }
+    .second-section {
+        border-radius: 40px 40px 0px 0px;
+        box-shadow: 1px 1px 4px black;
+    }
     .container-header {
         background-color: #abd849;
         height: 80vh;
         width: 100%;
-
     }
     .menu-desk {
         display: none;
@@ -52,8 +58,30 @@
     }
     
     .h1-top {
-        margin-top: 50px;
-        text-align: center;
+        display: none;
+    }
+    .h1-top-mob {
+        display: block;
+    }
+    .text-header-mob {
+        font-size: 2.6em;
+        color: #fff;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .container-text-mob {
+        width: 84%;
+        display: table;
+    }
+    .img-destaque-mob {
+        height: 163px;
+        width: 181px;
+        float: right;
+        margin: -36px 0px 30px 0px;
+        border-radius: 75px 0px;
+    }
+    .why-header {
+        color: #583417;
+        font-size: 2em;
     }
     .list-menu-mob ul {
         list-style-type: none;
@@ -90,16 +118,10 @@
     .text-header {
         font-size: 3em;
         cursor:default;
-        color: #fff;
+        color: #000;
         margin-top: 20px;
     }
-    .img-destaque {
-        height: 245px;
-        width: 70%;
-        background-color: aqua;
-        border-radius: 122px 0px 122px 0px;
-        margin: 0 auto;
-    }
+    
     .menu-list-places li {
         float: left;
         cursor: pointer;
@@ -153,12 +175,7 @@
         font-size: 1.1em;
         color: #583417;
     }
-    .container-img {
-        width: 100%;
-        height: 140px;
-        background-color: #9bd126;
-        margin-bottom: 20px;
-    }
+    
     
     .view button{
         width: 100px;
@@ -329,6 +346,9 @@
     .item-rd:last-child {
         margin-right: 0px;
     }
+    .places:first-child {
+        margin-top: 20px;
+    }
     .places:nth-child(even) .item-list-view {
         float: right;
         margin-right: 5px;
@@ -351,6 +371,9 @@
 @media screen and (min-width:992px) {
     
     /*Cabeçalho*/
+    .h1-top-mob {
+        display: none;
+    }
     .container-header {
         background-color: #abd849;
         height: 80vh;
@@ -461,7 +484,7 @@
     }
     .h1-top {
         margin: 90px 0px 0px 0px;
-        
+        display: flex;
     }
     .container-img-destaque {
         width: 100%;
@@ -719,11 +742,21 @@
     opacity: 1;
     background-color: rgb(245, 237, 226);
 }
+.color-purple {
+    color: #551AA7;
+}
 .bg-dark {
     background-color: #000;
 }
 .bg-green {
     background-color: #A8B983;
+}
+.bg-greenlime {
+    background-color: #ABD849;
+}
+.textupper {
+    text-transform: uppercase;
+    font-size: 0.8em;
 }
 .bg-light {
     background-color: rgb(245, 237, 226);
