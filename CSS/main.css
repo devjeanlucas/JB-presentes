@@ -68,8 +68,9 @@
         color: #fff;
         font-family: Arial, Helvetica, sans-serif;
     }
+    
     .container-text-mob {
-        width: 84%;
+        width: 100%;
         display: table;
         margin-bottom: 50px;
     }
@@ -78,7 +79,8 @@
         position: relative;
         height: 250px;
         width: 100%;
-        box-shadow: 1px 1px 2px black;
+        box-shadow: 1px 1px 4px  black;
+        border-radius: 10px;
     }
     .list-destaque {
         height: 200px;
@@ -97,7 +99,7 @@
         position: absolute;
         left: 0;
         border: none;
-        z-index: 1000;
+        z-index: 1;
     }
     .btn-right {
         height: 100%;
@@ -106,7 +108,7 @@
         position: absolute;
         right: 0;
         border: none;
-        z-index: 1000;
+        z-index: 1;
     }
     .btn-left img, .btn-right img {
         width: 50px;
@@ -153,6 +155,7 @@
     .why-header {
         color: #583417;
         font-size: 2em;
+        margin-top: 110px;
     }
     .list-menu-mob ul {
         list-style-type: none;
