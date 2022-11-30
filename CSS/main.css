@@ -36,6 +36,7 @@
         left: 18px;
         border: none;
         cursor: pointer;
+        z-index: 1000;
     } 
     .menu-mob {
         width: 70%;
@@ -80,7 +81,7 @@
         position: relative;
         height: 250px;
         width: 100%;
-        
+        box-shadow: 1px 6px 17px rgba(0, 0, 0, 0.329);
         border-radius: 0px 0px 10px 10px;
     }
     .list-destaque {
@@ -148,6 +149,7 @@
         background-color: #9bd126;
         padding: 5px;
         border: 1px solid black;
+        cursor: pointer;
     }
     
 
@@ -156,7 +158,7 @@
     .why-header {
         color: #583417;
         font-size: 2em;
-        margin-top: 140px;
+        margin-top: 120px;
     }
     .list-menu-mob ul {
         list-style-type: none;
@@ -184,6 +186,7 @@
         height: 45px;
         background-color: #551AA7;
         border-radius: 10px 10px 0px 0px;
+        box-shadow: 3px 2px 10px black;
     }
     .logo h1 {
         cursor: default;
@@ -448,9 +451,7 @@
 @media screen and (min-width:992px) {
     
     /*Cabeçalho*/
-    .h1-top-mob {
-        display: none;
-    }
+    
     .container-header {
         background-color: #abd849;
         height: 80vh;
@@ -474,6 +475,35 @@
         width: 100%;
         height: 2px;
         z-index: 1;
+    }
+    .line-header-mob {
+        margin: 0px 0px 20px 0px;
+    }
+    .container-list-header {
+        overflow: hidden;
+        position: relative;
+        height: 250px;
+        width: 80%;
+        box-shadow: 1px 6px 17px rgba(0, 0, 0, 0.329);
+        border-radius: 10px;
+        margin: 0 auto;
+    }
+    .container-text-mob {
+        margin: 0px auto 23px auto;
+    }
+    .text-header-mob {
+        font-size: 2.6em;
+        color: #fff;
+        font-family: Arial, Helvetica, sans-serif;
+        text-indent: 20px;
+        margin: 0 auto;
+        display: table;
+    }
+    .why-header {
+        color: #583417;
+        font-size: 2em;
+        margin-top: 20px;
+        text-indent: 40px;
     }
     .line-view1, .line-view2,.line-view3, .line-view4{
         content: '';
@@ -550,34 +580,19 @@
         width: 100%;
     }
     .logo {
-        width: 100%;
-        height: 100px;
+        width: 66%;
+        height: 50px;
+        margin: 0 auto;
     }
     .logo h1 {
-        padding-top: 23px;
+        padding-top: 2px;
         cursor: pointer;
-        color: #551AA7;
+        color: #fff;
         font-size: 40px;
     }
     .h1-top {
         margin: 90px 0px 0px 0px;
         display: flex;
-    }
-    .container-img-destaque {
-        width: 100%;
-        margin: 0px;
-        padding: 0px;
-        overflow: hidden;
-    }
-    .img-destaque {
-        height: 400px;
-        width: 60%;
-        background-color: aqua;
-        border-radius: 160px 0px 160px 0px;
-        background-size: cover;
-        margin: 0 auto;
-        box-shadow: 1px 1px 3px black;
-        z-index: 100;
     }
     
     .text-header {
