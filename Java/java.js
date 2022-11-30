@@ -157,3 +157,16 @@ var waypoint = new Waypoint({
     offset:'90%'
 })
 
+//Lista de Destaques 
+var items = document.querySelectorAll('.item-destaque')
+var lista = document.querySelector('.list-destaque')
+var totalview = lista.parentElement.offsetWidth
+var totalWitdh = null
+
+for (var w = 0; w < items.length; w++){ 
+    items[w].style.width = totalview + 'px'
+    totalWitdh += items[w].offsetWidth
+    
+}
+lista.style.width = totalWitdh + 100 + 'px' ;
+console.log(lista.offsetWidth)
