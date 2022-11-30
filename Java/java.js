@@ -191,7 +191,7 @@ function left () {
 
 function right () {
     
-    if (-1*(pos_item_list + 400) > totalview ){
+    if (-1*(pos_item_list + 600) > totalview ){
         return console.log('fim')
     }
 
