@@ -169,4 +169,44 @@ for (var w = 0; w < items.length; w++){
     
 }
 lista.style.width = totalWitdh + 100 + 'px' ;
-console.log(lista.offsetWidth)
+//botões da lista 
+var btn_left = document.querySelector('.btn-left')
+var btn_right = document.querySelector('.btn-right')
+var pos_item_list = 0 
+
+function left () {
+    if (pos_item_list == 0){
+        return console.log('inicio')
+    }
+
+    
+    pos_item_list += totalview
+    
+    anime({
+        targets: '.item-destaque',
+        translateX: pos_item_list 
+    })
+    
+}
+
+function right () {
+    if (-1*pos_item_list == 1242){
+        return console.log('fim')
+    }
+
+
+    pos_item_list -= totalview
+     
+    anime({
+        targets: '.item-destaque',
+        translateX: pos_item_list 
+    })
+    
+}
+   
+btn_left.addEventListener('click', function(){
+    left()
+})
+btn_right.addEventListener('click', function(){
+    right()
+})
