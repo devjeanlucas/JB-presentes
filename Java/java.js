@@ -157,3 +157,4 @@ var waypoint = new Waypoint({
     offset:'90%'
 })
 
+//carousel da lista destaque
