@@ -328,10 +328,9 @@
         margin: 0;
     }
     .container-footer {
-        width: 60%;
-        height: 100%;
+        display: table;
         margin: 0 auto;
-        
+        width: 100%;
     }
     .redes-sociais {
         width: 100%;
@@ -360,11 +359,11 @@
     }
     .refer {
         display: block;
-        width: 100%;
         color: #f0f0f0;
         text-align: center;
         line-height: 25px;
         font-size: 1.1rem;
+        margin-top: 3px;
     }
     
     }
