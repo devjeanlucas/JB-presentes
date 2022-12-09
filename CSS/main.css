@@ -439,6 +439,7 @@
     .line-header-mob {
         margin: 0px 0px 20px 0px;
     }
+
     .container-list {
         height: 60vh ;
         width: 90%;
@@ -495,6 +496,7 @@
     #slide3:checked ~ .s1 {
         margin-left: -66.666%;
     }
+
     .why-header {
         color: #583417;
         font-size: 2em;
