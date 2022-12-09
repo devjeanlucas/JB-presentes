@@ -158,3 +158,4 @@ var waypoint = new Waypoint({
 })
 
 //carousel da lista destaque
+var slides = document.querySelectorAll('.slide')
