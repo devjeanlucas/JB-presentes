@@ -643,43 +643,60 @@
     /*footer*/
     footer {
         background-color: #9bd126;
-        height: 110px;
         width: 100%;
+        display: table;
+        margin: 0;
     }
     .container-footer {
-        width: 60%;
-        height: 100%;
+        display: table;
         margin: 0 auto;
-        
+        width: 100%;
     }
     .redes-sociais {
-        width: 50%;
+        width: 100%;
         height: 50px;
         margin: 0px auto;
         padding-top: 10px;
     }
     .redes-sociais h3 {
         text-align: center;
-        color: #000;
+        color: #fff;
         margin-top: 10px;
     }
     .list-rd {
         list-style-type: none;
         margin: 0px auto;   
-        display: table;
+        display: flex;
+        justify-content: center;
     }
 
-    
     .item-rd {
         background-color: #551AA7;
         height: 50px;
         width: 50px;
-        display: inline-block;
-        margin-right: 50px;
+        margin-right: 20px;
         border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
-    .item-rd:last-child {
-        margin-right: 0px;
+    .item-rd img {
+        width: 28px;
+        height: 28px;
+    }
+    .refer {
+        display: block;
+        color: #f0f0f0;
+        text-align: center;
+        line-height: 35px;
+        font-size: 1.1rem;
+        margin-top: 3px;
+    }
+    
+    .refer img {
+        width: 20px;
+        height: 20px;
+        margin-right: 3px;
     }
     
     
